@@ -1,0 +1,104 @@
+</<!DOCTYPE html>
+<html>
+<head>
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <link rel="stylesheet" type="text/css" href="bootstrap-3.3.6-dist\css\bootstrap.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+
+    <script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
+    <script src="script.js"></script>
+
+	<title>Welcome at your TodoList</title>
+</head>
+<body class="background fullscreen">
+<div class="form centered">
+	<div class="tabs">
+		<ul class="nav">
+			<li class="nav-item">
+				<a data-toggle="tab" href="#login-form" class="active">Sign in</a>
+			</li><!--
+					--><li class="nav-item">
+				<a data-toggle="tab" href="#registration-form" >Sign up</a>
+			</li><!--
+			--><li class="nav-item">
+				<a data-toggle="tab" href="#resetpassword-form">Reset Password</a>
+			</li><!--
+		--></ul>
+	</div>
+
+	<div class="tab-content">
+		<div id="login-form" class="tab-pane fade in active">
+			<p class="message">Please fill in this form to get your todo list:</p>
+			<form>
+				<div class="form-item">
+					<input type="text" placeholder="Username">	
+				</div>
+
+				</br>
+
+				<div class="form-item">
+					<input type="password" placeholder="Password">
+				</div>
+				</br>
+
+				<div class="div-btn">
+					<input type="submit" class="btn" value="Sign in"> 
+				</div>
+			</form>
+		</div>
+
+	<div id="registration-form" class="tab-pane fade in">
+			<p class="message">Please fill in this form to create your account:</p>
+			<form>
+				<div class="form-item">
+					<input type="text" placeholder="Email">	
+				</div>
+
+				</br>
+				<div class="form-item">
+					<input type="text" placeholder="Username">	
+				</div>
+
+				</br>
+
+				<div class="form-item">
+					<input type="password" placeholder="Password">
+				</div>
+				</br>
+				<div class="form-item">
+					<input type="password" placeholder="Confirm your password">
+				</div>
+				</br>
+
+				<div class="div-btn">
+					<input type="submit" class="btn" Value="Sign up"> 
+				</div>
+			</form>
+		</div>
+	<div id="resetpassword-form" class="tab-pane fade in">
+			<p class="message">Please enter your email :</p>
+
+			<form>
+
+				</br>
+				<div class="form-item">
+					<input type="text" placeholder="Email">	
+				</div>
+
+				</br>
+
+				</br>
+
+				<div class="div-btn">
+					<input type="submit" class="btn" value="Send"> 
+				</div>
+			</form>
+	</form>
+	</div>
+	</div>
+</div>
+
+
+
+</body>
+</html>
